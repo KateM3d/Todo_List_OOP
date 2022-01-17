@@ -1,0 +1,82 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    margin: 50px 0 30px 0;
+    font-weight: 400;
+    color: #5800ff;
+}
+
+.btn {
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 10px;
+    padding: 10px 30px;
+    text-decoration: none;
+    max-width: 120px;
+    text-align: center;
+    display: inline-block;
+    transition: background-color 220ms, transform 220ms;
+    border: none;
+}
+
+.btn-outline {
+    color: #ffc600;
+    background-color: #5800ff;
+    border: #ffc600 2px solid;
+    box-shadow: 1px 1px 7px #c4c4c4;
+}
+
+.required {
+    color: #e900ff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 1px;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: 500;
+}
+
+input:not(.btn) {
+    font-size: 16px;
+    margin-bottom: 1.7em;
+    padding: 0.75em 0.5em;
+    background-color: white;
+    width: 100%;
+    max-width: 250px;
+    border: none;
+}
+
+li {
+    color: #ffc600;
+    font-size: 30px;
+    list-style: number;
+    margin: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 0 20px;
+}
+
+select {
+    padding: 10px 15px;
+    margin-left: 10px;
+    border-radius: 8px;
+}
+
+#todo-list {
+    line-height: 28px;
+    padding-left: 0;
+}
+
+.separator {
+    margin-bottom: 20px;
+}

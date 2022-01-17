@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Todo List</title>
+</head>
+
+<body>
+    <div class="container" id="main">
+        <h1>Lets make a plan for today!</h1>
+        <form id="todo-form">
+            <label for="todo-title">Todo</label>
+            <input id="todo-title" type="text" placeholder="Enter your todo">
+            <select id="todo-category">
+                <option value="work">Work</option>
+                <option value="personal">Personal</option>
+            </select>
+            <input type="submit" class="btn btn-outline" value="Add" />
+        </form>
+        <hr class="separator" />
+        <div>
+            <label>
+                Filter:
+                <select id="todo-filter">
+                    <option value="">Show all</option>
+                    <option value="work">Work only</option>
+                    <option value="personal">Personal only</option>
+                </select>
+            </label>
+            <h3>My List <span id="todo-count"></span></h3>
+            <ul id="todo-list"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
